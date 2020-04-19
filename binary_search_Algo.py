@@ -2,8 +2,12 @@ def binary_search(list_in, item) -> int:
     """
     If item exists in list_in, this function returns its position in the list.
     """
+    assert type(item) == int
+    assert all([type(x) == int for x in list_in])
+
     list_start = 0
     list_end = len(list_in) - 1
+
 
     while list_start <= list_end:
         midpoint = list_start + (list_end - list_start) // 2
