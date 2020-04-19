@@ -24,6 +24,6 @@ def binary_search(list_in, item) -> int:
 
 list_in_a = [2, 3, 4, 6, 7, 9, 12, 14, 15, 16]
 
-item_a = 9
+item_a = 12
 
 print(binary_search(list_in_a, item_a))
