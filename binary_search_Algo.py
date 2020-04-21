@@ -24,7 +24,7 @@ def binary_search(list_in, item) -> int:
             list_start = mid_pt + 1
     return None
 
-list_in_a = [2, 3, 4, 6, 14, 9, 7, 12, 15, 16]
+list_in_a = [2, 3, 4, 6, 14, 9, 7, 12, 15, 11]
 
 item_a = 15
 
